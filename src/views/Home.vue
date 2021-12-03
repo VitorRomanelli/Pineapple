@@ -80,6 +80,7 @@
         <v-divider class="my-6"></v-divider>
 
         <h3 class="section-title my-4">Cursos</h3>
+
         <v-parallax
           style="width: 100%; border-radius: 20px"
           src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw0Nzg3Nzg2fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
@@ -110,8 +111,8 @@
           >
             <v-carousel-item v-for="test in 3" :key="test">
               <span class="my-4 list-item-text">
-                You can decide whether to create your site using UI Kit blocks
-                or samples. The blocks can merge together in various
+                asdlfjYou can decide whether to create your site using UI Kit
+                blocks or samples. The blocks can merge together in various
                 combinations.
               </span>
 
