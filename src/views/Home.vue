@@ -8,7 +8,7 @@
           <h3 class="section-title">Visão geral</h3>
 
           <span class="section-text my-4">
-            A pineaple é uma empresa que oferece cursos de aprendizagem na área
+            A pineapple é uma empresa que oferece cursos de aprendizagem na área
             de tecnologia e linguas
           </span>
 
@@ -353,13 +353,13 @@ export default {
       {
         name: "João Cruzick",
         message:
-          "Minha experiência nos cursos da pineaple foram muito satisfatórias, sempre fazia questão de me despedir dos professores no fim das aulas",
+          "Minha experiência nos cursos da pineapple foram muito satisfatórias, sempre fazia questão de me despedir dos professores no fim das aulas",
         image: require("../assets/joao.png"),
       },
       {
         name: "David Alvez",
         message:
-          "Minha paixão por servidores e informatica me fez chegar aos curos da pineaple, logo me inscrevi com o Combo Redes e aproveitei cada parte da aprendizagem",
+          "Minha paixão por servidores e informatica me fez chegar aos curos da pineapple, logo me inscrevi com o Combo Redes e aproveitei cada parte da aprendizagem",
         image: require("../assets/davi.jpeg"),
       },
     ],

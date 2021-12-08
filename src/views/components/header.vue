@@ -1,7 +1,7 @@
 <template>
   <div class="color-content pa-4">
     <div class="my-6">
-      <h3 class="head-title">Pineaple</h3>
+      <h3 class="head-title">Pineapple</h3>
       <span class="head-subtitle"
         >Uma solução inovadora para o seu aprendizado</span
       >
