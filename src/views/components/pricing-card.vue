@@ -6,31 +6,30 @@
       elevation="0"
       color="#2F1893"
     >
-      <span class="head-title">{{ title }}</span>
+      <span class="head-title"> {{ title }} </span>
 
       <div class="d-flex justify-space-around my-4">
-        <span class="description">$</span>
-        <strong class="price mx-2">49</strong>
+        <span class="description">R$</span>
+        <strong class="price mx-2">{{ price }}</strong>
         <div>
-          <span class="description">per user</span>
+          <span class="description">Por usuário</span>
           <br />
-          <span class="description">per month</span>
+          <span class="description">Por mês</span>
         </div>
       </div>
 
       <div class="description">
-        All the features you need to keep your personal files safe, accessible,
-        and easy to share.
+        {{ description }}
       </div>
     </v-card>
 
-    <div class="my-1" v-for="n in 3" :key="n">
+    <div class="my-1" v-for="(course, index) in courses" :key="index">
       <v-icon class="mr-2" color="#25DAC5">mdi-check-bold</v-icon>
-      <span class="list-active-text">2 GB of hosting space</span>
+      <span class="list-active-text">{{ course }}</span>
     </div>
 
-    <div class="my-1" v-for="n in 3" :key="n + 'i'">
-      <span class="list-inactive-text">2 GB of hosting space</span>
+    <div class="my-1" v-for="(other, index) in others" :key="index + 'other'">
+      <span class="list-inactive-text">{{ other }}</span>
     </div>
 
     <div class="mt-2">
@@ -40,7 +39,7 @@
         dark
         style="text-transform: none; border-radius: 10px"
       >
-        Start Free Trial
+        Comprar
       </v-btn>
     </div>
   </div>
@@ -96,6 +95,10 @@ export default {
 
   props: {
     title: String,
+    description: String,
+    price: Number,
+    courses: Array,
+    others: Array,
   },
 };
 </script>

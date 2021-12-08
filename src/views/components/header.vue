@@ -1,27 +1,10 @@
 <template>
   <div class="color-content pa-4">
     <div class="my-6">
-      <h3 class="head-title">How To Protect Computer.</h3>
-      <h3 class="head-title">Very Useful Tips</h3>
-      <span class="head-subtitle">Splashproof Design</span>
-    </div>
-
-    <div class="d-flex my-6">
-      <div class="mx-3">
-        <v-img height="100" width="100" class="image"></v-img>
-      </div>
-
-      <div>
-        <span class="head-subtitle">Samuel Audley</span>
-        <br />
-        <span class="head-text"> Saving the world. Shaping the world. </span>
-        <div class="d-flex justify-space-around my-4">
-          <v-icon color="white">mdi-facebook</v-icon>
-          <v-icon color="white">mdi-twitter</v-icon>
-          <v-icon color="white">mdi-linkedin</v-icon>
-          <v-icon color="white">mdi-instagram</v-icon>
-        </div>
-      </div>
+      <h3 class="head-title">Pineaple</h3>
+      <span class="head-subtitle"
+        >Uma solução inovadora para o seu aprendizado</span
+      >
     </div>
   </div>
 </template>
