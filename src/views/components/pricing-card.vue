@@ -85,7 +85,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  color: #ebeaed;
+  color: #dfdfdf;
 }
 </style>
 

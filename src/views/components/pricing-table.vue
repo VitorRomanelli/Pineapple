@@ -69,7 +69,7 @@ export default {
       },
       {
         title: "Combo de redes",
-        price: 200,
+        price: 275,
         description:
           "No Curso de Infra de redes você irá adquirir diversas habilidades novas para acrescentar no seu currículo desde aprendera projetar até conhecer sobre padrões de cabeamento e protocolos de rede, sem falar do inglês técnico que vai ajudar muito na sua jornada no mundo da tecnologia.",
         courses: ["Projetista em Infraestrutura de Redes ", "Inglês técnico"],
@@ -77,7 +77,7 @@ export default {
       },
       {
         title: "Combo técnico",
-        price: 200,
+        price: 243,
         description:
           "Nesse curso você irá aprender sobre a arquitetura de um computador, como montar e desmontar, além de entender como os componentes do computador se comportam. Como alguns sabem o conhecimento de outra língua é um diferencial, na área de tecnologia é indispensável, foi pensando nisso que nesse combo implementamos o inglês técnico.",
         courses: ["Inglês técnico", "Montagem e manutenção"],
