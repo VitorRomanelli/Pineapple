@@ -8,69 +8,92 @@
           <h3 class="section-title">Visão geral</h3>
 
           <span class="section-text my-4">
-            A pineapple é uma empresa que oferece cursos de aprendizagem na área
-            de tecnologia e linguas
+            A Pineapple é uma empresa que oferece cursos de aprendizagem na área
+            de tecnologia e linguas, visando formar novos profissionais
+            qualificados para o mercado de trabalho.
           </span>
 
           <br />
           <br />
 
           <span class="section-text my-4">
-            For some minutes Alice stood without speaking, looking out in all
-            directions over the country - and a most curious country it was.
-            There were a number of tiny little brooks running straight across it
-            from side to side, and the ground between was divided up into
-            squares by a number of little.
+            A pineapple oferece cursos de aprendizagem na área de tecnologia e
+            linguas.
           </span>
         </div>
 
         <div class="my-4">
-          <h3 class="section-subtitle">Perfect for Your</h3>
+          <h3 class="section-subtitle">Perfeita para você</h3>
 
           <span class="section-text">
-            She gave my mother such a turn, that I have always been convinced I
-            am indebted to Miss Betsey for having been born on a Friday. The
-            word was appropriate to the moment.
+            A pineapple se preocupa com sua aprendizagem não só em termos de
+            conhecimento, mas também de conforto para entender os conceitos de
+            forma leve e concisa, dessa forma, absovendo melhor as ideias e
+            termos passados.
           </span>
         </div>
 
         <v-img src="../assets/students1.jpg" class="image my-3"></v-img>
 
-        <span class="image-legend ml-3">There have not been any since</span>
+        <span class="image-legend ml-3">Para sua realidade</span>
 
         <br />
         <br />
 
         <div class="my-4">
-          <h3 class="section-subtitle">The Fall Report</h3>
+          <h3 class="section-subtitle">Valores</h3>
 
           <span class="section-text">
-            This sounded nonsense to Alice, so she said nothing, but set off at
-            once toward the Red Queen. To her surprise, she lost sight of her in
-            a moment, and found herself walking in at the front-door again.
+            Nós seguimos uma série de valores que acreditamos que impulsiona o
+            seu desenvolvimento.
           </span>
         </div>
 
         <div class="mb-6">
           <v-list>
-            <v-list-item class="d-flex align-center" v-for="n in 3" :key="n">
+            <v-list-item class="d-flex align-center">
               <v-icon class="mr-2" small color="#1E0E62">
                 mdi-checkbox-blank-circle
               </v-icon>
 
               <v-list-item-content class="list-item-text">
                 <v-list-item-title>
-                  Thus much I thought proper to tell you in relation to
-                  yourself, and to the trust I reposed in you.
+                  Acreditamos que todo conhecimento deve ser passado de forma
+                  especifica para cada aluno.
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item class="d-flex align-center">
+              <v-icon class="mr-2" small color="#1E0E62">
+                mdi-checkbox-blank-circle
+              </v-icon>
+
+              <v-list-item-content class="list-item-text">
+                <v-list-item-title>
+                  A ideia é que você esteja em um ambiente que se sinta
+                  confortável o tempo todo.
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item class="d-flex align-center">
+              <v-icon class="mr-2" small color="#1E0E62">
+                mdi-checkbox-blank-circle
+              </v-icon>
+
+              <v-list-item-content class="list-item-text">
+                <v-list-item-title>
+                  O bem estar no aprendizado é o mais importante, a nossa ideia
+                  é que você se sinta bem enquanto aprende!
                 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-list>
 
           <span class="section-text mt-2">
-            She gave my mother such a turn, that I have always been convinced I
-            am indebted to Miss Betsey for having been born on a Friday. The
-            word was appropriate to the moment.
+            Para cada pesssoa, um método e métrica diferente, feito
+            especialmente para você!
           </span>
         </div>
 
